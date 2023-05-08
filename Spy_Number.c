@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,s=0,p=1;
+    int i,n,s=0,p=1;
     scanf("%d",&n);
     while(n>0)
     {
@@ -10,12 +10,12 @@ int main()
         p=p*i;
         n=n/10;
     }
-    if(s==p)
-    {
-        printf("Spy Number");
-    }
-    else
-    {
-        printf("Not Spy Number");
-    }
+        if(s==p)
+        {
+            printf("Spy Number");
+        }
+        else
+        {
+            printf("Not Spy Number");
+        }
 }
